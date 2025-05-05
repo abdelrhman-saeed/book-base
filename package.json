@@ -1,0 +1,32 @@
+{
+    "name": "book-base",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon -r dotenv/config server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/abdelrhman-saeed/book-base.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/abdelrhman-saeed/book-base/issues"
+    },
+    "homepage": "https://github.com/abdelrhman-saeed/book-base#readme",
+    "description": "",
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.13.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
